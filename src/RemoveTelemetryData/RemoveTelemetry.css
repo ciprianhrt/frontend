@@ -1,0 +1,34 @@
+.remove-telemetry-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative; /* Ensure relative positioning */
+}
+
+.page-header {
+  position: absolute;
+  top: 0;
+  z-index: 1; /* Ensure the header is always on top */
+}
+
+.imported-image-zone {
+  position: relative;
+  z-index: 0; /* Ensure the images are below the header */
+}
+
+.remove-telemetry-button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove-telemetry-button:hover {
+  background-color: #0056b3;
+}
